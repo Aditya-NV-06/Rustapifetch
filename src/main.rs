@@ -27,7 +27,7 @@ impl Details{
 
 #[tokio::main]
 async fn main()->Result<(),ExitFailure>{ 
-    let api_key:String="coh5fd9r01qnfamlqub0coh5fd9r01qnfamlqubg".to_string();
+    let api_key:String="your key ".to_string();
    let args:Vec<String>=env::args().collect();
    let mut _stock:String="".to_string();   
    if args.len()<2{ 
